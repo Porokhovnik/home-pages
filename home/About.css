@@ -74,7 +74,3 @@ p{
 	justify-content: flex-start;
 	padding: 2%;
 }
-img :: after{
-	content: "";
-
-}

@@ -1,6 +1,6 @@
 @font-face{
  font-family: "Nunito_Sanz";
- src: url("Новая папка/fonts/NunitoSans-SemiBoldItalic.ttf") format("truetype");
+ src: url("fonts/NunitoSans-SemiBoldItalic.ttf") format("truetype");
  font-style: normal;
  font-weight: normal;
 }
@@ -11,24 +11,26 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 header{
 	width: 100%;
 	height: %;
 	background:  #ffffff;
 }
-ul.header {
+h2{
+	display: block;
 	font-family: 'Nunito_Sanz';
-	font-size: 25px;
+	font-size: 35px;
 	list-style-type: none;
 	padding: 2%;
-	width: 20%;
-	justify-content: flex-start;
-	align-items: center;
-	display: inline;
 	display: flex;
-	justify-content: space-around;
-	text-decoration: none;
+	align-items: flex-start;
+}
+a{
+	color: black;
+	display:inline-block;
+    padding:10px;
 }
 a.main{
 	text-decoration: none;
@@ -73,4 +75,8 @@ p{
 	display: flex;
 	justify-content: flex-start;
 	padding: 2%;
+}
+img :: after{
+	content: "";
+
 }
